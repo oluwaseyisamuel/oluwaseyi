@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+#come{justify-content: center;
+
+}
+
+.showDiv:nth-child(1){
+    color:seagreen;
+    text-decoration: underline;
+    font-family:sans;
+    font-size:30px ;
+}
+.showDiv:nth-child(2){
+    color:red;
+    text-align: justify;
+    font-size: 20px;
+    font-family:cursive;
+    
+}

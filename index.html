@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.js">
+</head>
+<body class="bg-dark">
+    <div class="card container shadow-sm p-2 my-2 bg-warning">
+        <h3 class="text-center " style="font-family:cursive">Budget App for Nana</h3> 
+        <div class="col-lg-5 col-12 mx-auto">
+            <div class="row">
+        <div class="alert alert-success p-2 text-center" style="display: none;color:red;font-size: 10px; font-style: italic;" id="errs">THE SPACES BELOW CANNOT BE EMPTY KINDLY FILL IN THE VALUES</div>
+        <div class="col-3" style="justify-content: center;">            
+            <button class="form-control form-control-sm my-3 border-danger border-3"required id="nanaDate" style="font-family: fantasy;">DATE</button>
+            <input type="" class="form-control form-control-sm my-3 " placeholder="dd/mm/yy" required id="dath" autofocus> 
+            <input type="" class="form-control form-control-sm my-3 " placeholder="dd/mm/yy" required id="dati">
+            <input type="" class="form-control form-control-sm my-3 " placeholder="dd/mm/yy" required id="datk">
+            <input type="" class="form-control form-control-sm my-3 " placeholder="dd/mm/yy" required id="datu">
+        </div>
+        <div class="col-6">
+            <button class="form-control form-control-sm my-3  border-danger border-3"placeholder="ITEMS PURCHASED" required id="purchaseID" style="font-family: fantasy;">ITEM PURCHASE</button>
+            <input type="text" class="form-control form-control-sm my-3" placeholder="Enter items" style="font-style:italic;" required id="item1">
+            <input type="text" class="form-control form-control-sm my-3" placeholder="Enter items" style="font-style:italic;" required id="item2">
+            <input type="text" class="form-control form-control-sm my-3 " placeholder="Enter items"style="font-style:italic;"required id="item3">
+            <input type="text" class="form-control form-control-sm my-3" placeholder="Enter items" style="font-style:italic;" required id="item4">
+        </div>
+        <div class="col-3">
+            <button class="form-control form-control-sm my-3  border-danger border-3"placeholder="PRICE" required id="nanaPrice" style="font-family:fantasy;">PRICE</button>
+            <input type="number" class="form-control form-control-sm my-3" placeholder="#" required id="one">
+            <input type="number" class="form-control form-control-sm my-3" placeholder="#" required id="two">
+            <input type="number" class="form-control form-control-sm my-3" placeholder="#" required id="three">
+            <input type="number" class="form-control form-control-sm my-3" placeholder="#" required id="four">
+        </div>
+        <button class="btn btn-success shadow-sm" onclick="calcs()">Calculate Items</button>
+        
+        <div class="my-3 p-2">
+            <p class="showDiv" id="intro"></p>
+            <p class="showDiv" id="note"></p>
+            <p class="showDiv" id="result"></p>
+
+        </div>
+    
+
+    </div>
+</div>
+        
+    
+    
+    
+    
+    
+    
+    
+</body>
+   <script src="script.js"></script>
+
+</body>
+</html>
